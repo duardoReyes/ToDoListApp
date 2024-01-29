@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modalBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  background-color: rgba(0, 0, 0, 0.601);
+  height: 1px;
+  animation: skinnytofat 1s forwards; /* Nombre de la animación y duración */
+  z-index: 3;
+}
+
+@keyframes skinnytofat{
+  0%{left: 50%;
+  width: 0;}
+  50%{
+    left: 0;
+    width: 100%;
+    top: 50%;
+    right: 0;
+    width: 100%;
+    height: 1px;  
+  }
+  
+  100%{
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+  }
+}

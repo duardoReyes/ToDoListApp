@@ -1,0 +1,41 @@
+.contenedorcrear{
+    margin-left: 180px;
+    height: 160px;
+    width: 395px;
+    position: absolute; bottom: 400px; 
+    padding: 0px;
+    z-index: 2;
+}
+
+.inputcrear{
+    background-color: #dedede;
+    height: 50px;
+    width: 300px;
+    border: 1px  #ccc; /* Grosor, tipo y color del borde */
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: #3a3a3a;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+
+}
+
+.titulocrear{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:  sans-serif;
+    color: rgb(79, 4, 87);
+    background-clip: text;
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.instrucciones{
+    color: rgb(79, 4, 87);
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
